@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.items-div {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: left;
+}
+
+.item:hover {
+  text-decoration: line-through;
+}
+
+.removed {
+  display: none;
+}
